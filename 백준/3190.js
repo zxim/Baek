@@ -10,7 +10,7 @@ for (let i = 2; i < 2 + K; i++) {
   apples.add(`${r - 1},${c - 1}`); // 0-indexed
 }
 
-const L = +input[2 + K];
+const L = input[2 + K];
 const turnInfo = new Map();
 for (let i = 3 + K; i < 3 + K + L; i++) {
   const [X, C] = input[i].split(' ');
